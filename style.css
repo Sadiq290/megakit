@@ -1,0 +1,141 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+:root{ 
+    --primary-color: #f75757;
+    --hover-color: #f52626;
+    --gray-color: #949090;
+    --black: rgba(0, 0, 0, 0.87);
+    --white:rgba(226, 226, 226);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color:var(--text-color)
+}
+.logo{
+    margin:8px 10px 10px 70px;
+    font-size: 15px;
+}
+#home{
+    color: var(--primary-color);
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color:#222328;
+    height: 58px;
+    color: var(--white);
+}
+.link{
+    list-style: none;
+    display: flex;
+}
+.link li{
+    padding-right: 25px;
+    margin: 15px 0px 10px 0px;
+}
+.link li a:hover{
+    color: var(--hover-color);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#quote{
+    padding:5px 24px 5px 24px;
+    background-color: #222328;
+    color: white;
+    margin: 5px 0px 0px 20px;
+    height: 45px;
+    border:1px solid var(--primary-color);
+    border-radius: 40px;
+    width:fit-content;
+}
+#quote:hover{
+    background-color: #f52626;
+    cursor: pointer;
+    padding:3px 24px 3px 24px;
+}
+.top{
+    background:linear-gradient(to bottom, rgba(0,0,0,0.5),  rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#fff;
+    height:90vh; 
+    background-attachment:fixed;
+}
+.writing{
+    margin-left: 70px;
+    padding-top: 76px;
+}
+#headline{
+    margin-top: 30px;
+    font-size: 53px;
+}
+#startButton{
+    padding:5px 28px 5px 28px;
+    background-color: var(--primary-color);
+    margin: 24px 0px 0px 0px;
+    border:1px solid var(--primary-color);
+    border-radius: 40px;
+    height: 45px;
+    width:fit-content;
+    color: rgb(255, 255, 255);
+}
+#startButton:hover{
+  cursor: pointer;
+  background-color: var(--hover-color);
+}
+#creativeLine{
+    margin: 15px 0px 60px 0px;
+    font-size: 37px;
+}
+.description{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.solution{
+    margin-right: 20%;
+}
+.solution i{
+    font-size: 60px;
+    color: var(--primary-color);
+}
+.solution h3{
+    margin: 18px 0px 12px 0px;    
+    font-size: 24px;
+    font-weight: 600;
+}
+.achieve{
+    margin-bottom: 80px;
+}
+.team{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.teamImage{
+   width:50vw;
+   height: 100%;
+   position: relative; 
+   height: 600px;
+   top:0;
+   left:0;  
+}
+#teamPic{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
